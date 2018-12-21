@@ -337,7 +337,8 @@ LOCAL_SHARED_LIBRARIES := \
 	libaudioroute \
 	libdl \
 	libaudioutils \
-	libexpat
+	libexpat \
+        libprocessgroup
 endif
 
 ifneq ($(strip $(TARGET_USES_AOSP_FOR_AUDIO)),true)
